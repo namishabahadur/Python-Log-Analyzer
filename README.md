@@ -1,50 +1,40 @@
-# Python Projects Portfolio
+# Python Automation & CLI Projects
 
-## Project 1: Log Analyzer
-
-This project analyzes system logs and counts ERROR, WARNING, and INFO messages.
-
-### Features
-- Reads log file
-- Counts log levels
-- Generates summary
-
-### How to Run
-1. Place sample.log in same folder
-2. Run the script
-3. View output
+This repository contains Python-based projects focused on automation, file handling, and command-line tools.
 
 ---
 
-## Project 2: File Organizer
-
-This script automatically organizes files into folders based on their type.
-
-### Features
-- Categorizes files (Images, Documents, Videos)
-- Automatically creates folders
-- Moves files accordingly
-
-### How to Use
-1. Create a folder named "test_folder"
-2. Add random files inside it
-3. Run the script
-4. Files will be organized automatically
-
----
----
-
-## Project 3: CLI Tool
-
-This is a command-line tool built using Python that performs basic operations.
+## 🔹 Project 1: Log Analyzer
+A Python script to analyze system logs and count ERROR, WARNING, and INFO messages.
 
 ### Features
-- Add two numbers
-- Greet user via terminal
-- Command-based input system
+- File handling
+- Log parsing
+- Summary generation
 
-### How to Use
-Run commands like:
+---
 
-python cli_tool.py add 5 10  
-python cli_tool.py greet Namisha
+## 🔹 Project 2: File Organizer
+Automatically organizes files into folders based on file type.
+
+### Features
+- File categorization
+- Folder automation
+- Uses os and shutil modules
+
+---
+
+## 🔹 Project 3: CLI Tool
+A command-line tool to perform operations via terminal commands.
+
+### Features
+- Argument handling using sys
+- Dynamic command execution
+
+---
+
+## 🛠️ Tech Stack
+- Python
+- OS Module
+- File Handling
+- CLI (Command Line Interface)
