@@ -38,3 +38,19 @@ A command-line tool to perform operations via terminal commands.
 - OS Module
 - File Handling
 - CLI (Command Line Interface)
+
+---
+
+---
+
+## Project 4: Log Report Generator
+
+This project reads system logs and generates a structured report file.
+
+### Features
+- Log parsing
+- Error counting
+- Report generation (text file)
+
+### Output
+Generates a report.txt file with summarized log data
