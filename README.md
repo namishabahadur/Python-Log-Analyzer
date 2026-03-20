@@ -1,13 +1,19 @@
-# Python-Log-Analyzer
-# Python Log Analyzer
+log_file = "sample.log"
 
-This project analyzes system logs and identifies errors, warnings, and information messages.
+error_count = 0
+warning_count = 0
+info_count = 0
 
-## Features
-- Counts error types
-- Detects repeated failures
-- Summarizes log activity
+with open(log_file, "r") as file:
+    for line in file:
+        if "ERROR" in line:
+            error_count += 1
+        elif "WARNING" in line:
+            warning_count += 1
+        elif "INFO" in line:
+            info_count += 1
 
-## Tech Used
-- Python
-- Collections module
+print("Log Summary:")
+print("Errors:", error_count)
+print("Warnings:", warning_count)
+print("Info:", info_count)
