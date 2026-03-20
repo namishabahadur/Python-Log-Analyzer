@@ -1,19 +1,18 @@
-log_file = "sample.log"
+# Python Log Analyzer
 
-error_count = 0
-warning_count = 0
-info_count = 0
+This project analyzes system logs and counts ERROR, WARNING, and INFO messages.
 
-with open(log_file, "r") as file:
-    for line in file:
-        if "ERROR" in line:
-            error_count += 1
-        elif "WARNING" in line:
-            warning_count += 1
-        elif "INFO" in line:
-            info_count += 1
+## Features
+- Reads log file
+- Counts log levels
+- Generates summary
 
-print("Log Summary:")
-print("Errors:", error_count)
-print("Warnings:", warning_count)
-print("Info:", info_count)
+## How to Run
+1. Place sample.log in same folder
+2. Run the script
+3. View output
+
+## Example Output
+Errors: 2
+Warnings: 1
+Info: 2
