@@ -30,3 +30,21 @@ This script automatically organizes files into folders based on their type.
 2. Add random files inside it
 3. Run the script
 4. Files will be organized automatically
+
+---
+---
+
+## Project 3: CLI Tool
+
+This is a command-line tool built using Python that performs basic operations.
+
+### Features
+- Add two numbers
+- Greet user via terminal
+- Command-based input system
+
+### How to Use
+Run commands like:
+
+python cli_tool.py add 5 10  
+python cli_tool.py greet Namisha
